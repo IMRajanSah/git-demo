@@ -22,9 +22,12 @@ function App() {
       <br></br>
       <center><h2>Counter App</h2>
       <p style={mystyle}>{count}</p>
+      
     <button onClick={ increment}>Increase Me</button>&nbsp;&nbsp;
     <button onClick={decrement}>Decrease Me</button>&nbsp;&nbsp;
     <button onClick={Zero}>Set Me Zero</button></center>
+
+    <p style={{marginTop:'60vh',textAlign:'right',marginRight:'40px'}}><i>Created by: Rajan Kumar Sah</i></p>
     </div>
   );
 }
